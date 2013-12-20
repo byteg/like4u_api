@@ -7,7 +7,7 @@ module Like4u
       end
 
 	  def get_user
-	  	result = RestClient.get("http://like4u.ru/client/user_info.json", token: token)
+	  	result = RestClient.get "http://like4u.ru/client/user_info.json?token=#{token}"
 	  	JSON.parse(result)
 	  end
 
