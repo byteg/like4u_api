@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.version     = Like4u::VERSION
   s.authors     = ["Denis Kuznetsov"]
   s.email       = ["denis@f7.ru"]
-  s.summary     = "TODO: Summary of Like4uApi."
-  s.description = "TODO: Description of Like4uApi."
+  s.summary     = "API wrapper for like4u.ru"
+  s.description = "API wrapper for like4u.ru"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
