@@ -1,0 +1,19 @@
+= Like4uApi
+
+This project rocks and uses MIT-LICENSE.
+
+
+client = Like4u::Client.new(token: token)
+user = client.user.get
+
+client.user.pass_likes(amount: 100, to_id: 123)
+
+client.stock.sell_orders
+client.stock.buy_orders
+
+client.stock.create_sell_order
+
+client.stock.create_buy_order
+
+client.stock.accept_buy_order
+client.stock.accept_sell_order
