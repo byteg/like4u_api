@@ -6,7 +6,7 @@ require "like4u_api/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "like4u_api"
-  s.version     = Like4uApi::VERSION
+  s.version     = Like4u::VERSION
   s.authors     = ["Denis Kuznetsov"]
   s.email       = ["denis@f7.ru"]
   s.summary     = "TODO: Summary of Like4uApi."
