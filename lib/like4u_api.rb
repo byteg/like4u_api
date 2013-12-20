@@ -1,2 +1,1 @@
-module Like4u
-end
+require 'like4u_api/client'
