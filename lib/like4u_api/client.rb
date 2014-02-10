@@ -2,12 +2,13 @@ module Like4u
   class Client
     attr_accessor :token
 
-      def initialize(token)
+      def initialize(token, base_url = 'http://like4u.ru')
         @token = token
+        @base_url = base_url
       end
 
 	  def get_user
-	  	result = RestClient.get "http://like4u.ru/client/users.json?t=#{@token}"
+	  	result = RestClient.get "#{@base_url}/client/users.json?t=#{@token}"
 	  	JSON.parse(result)
 	  end
 
